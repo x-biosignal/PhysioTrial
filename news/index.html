@@ -7,7 +7,7 @@
 
     <a class="navbar-brand me-2" href="../index.html">PhysioTrial</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.4.0</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.5.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,6 +50,19 @@
       <small>Source: <a href="https://github.com/x-biosignal/PhysioTrial/blob/main/NEWS.md" class="external-link"><code>NEWS.md</code></a></small>
     </div>
 
+    <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.5.0" id="physiotrial-050">PhysioTrial 0.5.0<a class="anchor" aria-label="anchor" href="#physiotrial-050"></a></h2>
+<p>Power and sample-size for rehabilitation trial designs (<code>R/power.R</code>) — the package could previously run and report a trial but not size or power one.</p>
+<ul><li>
+<code><a href="../reference/sampleSizeContinuous.html">sampleSizeContinuous()</a></code> / <code><a href="../reference/powerContinuous.html">powerContinuous()</a></code> — two-arm continuous endpoint, cross-validated against base <code><a href="https://rdrr.io/r/stats/power.t.test.html" class="external-link">stats::power.t.test</a></code>; adds unequal allocation, one/two-sided, dropout inflation, and cluster design effect.</li>
+<li>
+<code><a href="../reference/sampleSizeANCOVA.html">sampleSizeANCOVA()</a></code> — the recommended pre-post analysis, baseline-adjusted (variance x (1 - rho^2)); <code><a href="../reference/sampleSizeChangeScore.html">sampleSizeChangeScore()</a></code> — change-from-baseline (SD x sqrt(2(1 - rho))); <code><a href="../reference/sampleSizeRepeatedMeasures.html">sampleSizeRepeatedMeasures()</a></code> — mean of repeated post-baseline visits under compound symmetry (Frison &amp; Pocock).</li>
+<li>
+<code><a href="../reference/sampleSizeBinary.html">sampleSizeBinary()</a></code> / <code><a href="../reference/powerBinary.html">powerBinary()</a></code> — two-proportion / responder endpoint, matching <code><a href="https://rdrr.io/r/stats/power.prop.test.html" class="external-link">stats::power.prop.test</a></code>.</li>
+<li>
+<code><a href="../reference/powerCurve.html">powerCurve()</a></code> for planning; <code><a href="../reference/estimateBaselineCorrelation.html">estimateBaselineCorrelation()</a></code> estimates rho for ANCOVA planning from pilot vectors, a data frame, or a <code>PhysioCohort</code>.</li>
+<li>All share cluster (ICC design effect) and dropout modifiers and return a printable <code>trial_power</code> object.</li>
+</ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.4.0" id="physiotrial-040">PhysioTrial 0.4.0<a class="anchor" aria-label="anchor" href="#physiotrial-040"></a></h2>
 <ul><li>Adds deterministic, linked SDTM-shaped DM, AE, VS, EG, and sponsor-defined XP exports plus validated passthrough domains.</li>

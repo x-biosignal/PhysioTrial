@@ -3,7 +3,7 @@
 Fits change-from-baseline or follow-up ANCOVA with treatment referenced
 to an explicit control. Reported Cohen d values are unadjusted
 change-score effects delegated to
-[`PhysioCore::cohensD()`](https://x-biosignal.r-universe.dev/PhysioCore/reference/cohensD.html)
+[`PhysioCore::cohensD()`](https://x-biosignal.github.io/PhysioCore//reference/cohensD.html)
 and are separate from the adjusted ANCOVA estimate.
 
 ## Usage
