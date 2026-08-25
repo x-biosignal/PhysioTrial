@@ -1,0 +1,34 @@
+item_id,top_level_item,section,short_label
+1,1,Administrative information,Descriptive title
+2,2,Administrative information,Trial registration
+3,3,Administrative information,Protocol version
+4,4,Administrative information,Funding
+5,5,Administrative information,Roles and responsibilities
+6,6,Introduction,Background and rationale
+7,7,Introduction,Objectives
+8,8,Introduction,Trial design
+9,9,Methods - participants interventions and outcomes,Study setting
+10,10,Methods - participants interventions and outcomes,Eligibility criteria
+11,11,Methods - participants interventions and outcomes,Interventions
+12,12,Methods - participants interventions and outcomes,Outcomes
+13,13,Methods - participants interventions and outcomes,Participant timeline
+14,14,Methods - participants interventions and outcomes,Sample size
+15,15,Methods - participants interventions and outcomes,Recruitment
+16,16,Methods - assignment of interventions,Allocation sequence generation
+17,17,Methods - assignment of interventions,Allocation concealment
+18,18,Methods - assignment of interventions,Allocation implementation
+19,19,Methods - assignment of interventions,Blinding
+20,20,Methods - data collection management and analysis,Data collection methods
+21,21,Methods - data collection management and analysis,Data management
+22,22,Methods - data collection management and analysis,Statistical methods
+23,23,Methods - monitoring,Data monitoring
+24,24,Methods - monitoring,Harms
+25,25,Methods - monitoring,Auditing
+26,26,Ethics and dissemination,Research ethics approval
+27,27,Ethics and dissemination,Protocol amendments
+28,28,Ethics and dissemination,Consent or assent
+29,29,Ethics and dissemination,Confidentiality
+30,30,Ethics and dissemination,Declaration of interests
+31,31,Ethics and dissemination,Access to data
+32,32,Ethics and dissemination,Dissemination policy
+33,33,Appendices,Consent materials and biological specimens

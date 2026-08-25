@@ -1,0 +1,47 @@
+Package: PhysioTrial
+Type: Package
+Title: Randomization, Allocation Concealment and Blinding for Clinical Trials
+Version: 0.5.0
+Authors@R: person("Yusuke", "Matsui", email = "mail.to.matsui@gmail.com", role = c("aut","cre"))
+Description: Provides reproducible trial-design infrastructure for simple,
+    permuted-block, stratified-block, and Pocock-Simon minimization
+    randomization. Sealed allocation sequences, deterministic audit
+    fingerprints, treatment-code management, append-only unblinding logs,
+    CONSORT/SPIRIT operations, adverse-event summaries, explicit analysis
+    populations, missing-data hooks, and endpoint-analysis wrappers support
+    auditable clinical-trial workflows. Deterministic CDISC SDTM-shaped and
+    ADaM-shaped exports provide linked tabulation and analysis datasets without
+    claiming external regulatory conformance.
+Depends:
+    R (>= 4.2.0)
+Imports:
+    digest,
+    methods,
+    PhysioCore (>= 0.3.0),
+    stats
+Suggests:
+    DiagrammeR,
+    PhysioClinical,
+    PhysioClinStats,
+    testthat (>= 3.2.0)
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Maintainer: Yusuke Matsui <mail.to.matsui@gmail.com>
+URL: https://github.com/x-biosignal/PhysioTrial, https://x-biosignal.r-universe.dev/PhysioTrial, https://x-biosignal.github.io/PhysioTrial/
+BugReports: https://github.com/x-biosignal/PhysioTrial/issues
+Config/testthat/edition: 3
+Collate:
+    'PhysioTrial-package.R'
+    'class-trial.R'
+    'randomization.R'
+    'blinding.R'
+    'consort.R'
+    'spirit.R'
+    'adverse-events.R'
+    'analysis-sets.R'
+    'endpoints.R'
+    'power.R'
+    'cdisc.R'
+    'zzz.R'
