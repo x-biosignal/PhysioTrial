@@ -29,5 +29,5 @@ Append-only audit data frame.
 sequence <- randomize(Trial("T1", c("A", "B")), n = 4, seed = 1)
 auditLog(sequence)
 #>   event                time seed n_revealed agent
-#> 1  seal 2026-08-25 16:16:49    1          0  <NA>
+#> 1  seal 2026-09-27 23:59:41    1          0  <NA>
 ```
