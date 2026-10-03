@@ -212,3 +212,9 @@ full package suite.
 - [`validateCDISC()`](https://x-biosignal.github.io/PhysioTrial/reference/validateCDISC.md)
   : Validate a CDISC-Shaped Export
 
+# Articles
+
+### All vignettes
+
+- [Designing and running a randomized trial with
+  PhysioTrial](https://x-biosignal.github.io/PhysioTrial/articles/PhysioTrial.md):
